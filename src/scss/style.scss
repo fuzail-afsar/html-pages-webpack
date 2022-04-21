@@ -1,10 +1,2 @@
-@import url(./fonts/filson-soft.scss);
-
-*{
-    margin: 0px;
-}
-header, footer{
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-}
+@import url(./fonts/font.scss);
+@import "./bootstrap/bootstrap.scss";
