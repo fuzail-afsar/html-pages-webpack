@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "filson soft";
+  src: url("../../assets/fonts/filson-soft/thin/filson-soft-thin")
+      format("woff2"),
+    url("../../assets/fonts/filson-soft/thin/filson-soft-thin.woff")
+      format("woff"),
+    url("../../assets/fonts/filson-soft/thin/filson-soft-thin-opentype")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "filson soft";
+  src: url("../../assets/fonts/filson-soft/regular/filson-soft-regular")
+      format("woff2"),
+    url("../../assets/fonts/filson-soft/regular/filson-soft-regular.woff")
+      format("woff"),
+    url("../../assets/fonts/filson-soft/regular/filson-soft-regular-opentype")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "filson soft";
+  src: url("../../assets/fonts/filson-soft/medium/filson-soft-medium")
+      format("woff2"),
+    url("../../assets/fonts/filson-soft/medium/filson-soft-medium.woff")
+      format("woff"),
+    url("../../assets/fonts/filson-soft/medium/filson-soft-medium-opentype")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "filson soft";
+  src: url("../../assets/fonts/filson-soft/bold/filson-soft-bold")
+      format("woff2"),
+    url("../../assets/fonts/filson-soft/bold/filson-soft-bold.woff")
+      format("woff"),
+    url("../../assets/fonts/filson-soft/bold/filson-soft-bold-opentype")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "filson soft";
+  src: url("../../assets/fonts/filson-soft/extra-bold/filson-soft-extra-bold")
+      format("woff2"),
+    url("../../assets/fonts/filson-soft/extra-bold/filson-soft-extra-bold.woff")
+      format("woff"),
+    url("../../assets/fonts/filson-soft/extra-bold/filson-soft-extra-bold-opentype")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "filson soft";
+  src: url("../../assets/fonts/filson-soft/black/filson-soft-black")
+      format("woff2"),
+    url("../../assets/fonts/filson-soft/black/filson-soft-black.woff")
+      format("woff"),
+    url("../../assets/fonts/filson-soft/black/filson-soft-black-opentype")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+}
