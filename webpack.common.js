@@ -1,15 +1,16 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
+const BASE_DIR = "assets/";
 
 module.exports = {
   entry: {
-    main: "./src/js/main.js",
+    main: "./src/assets/js/main.js",
     index: "./src/pages/index/index.js",
     about: "./src/pages/about/about.js",
   },
   output: {
-    filename: "js/[name].js",
+    filename: BASE_DIR + "js/[name].js",
     path: path.resolve(__dirname, "dist"),
     // assetModuleFilename: "assets/",
     clean: true,
@@ -28,7 +29,7 @@ module.exports = {
       filename: "about.html",
     }),
     new MiniCssExtractPlugin({
-      filename: "css/[name].css",
+      filename: BASE_DIR + "css/[name].css",
     }),
   ],
   module: {
@@ -41,14 +42,14 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: "asset/resource",
         generator: {
-          filename: "assets/images/[name][ext][query]",
+          filename: BASE_DIR + "images/[name][ext][query]",
         },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
         generator: {
-          filename: "assets/fonts/[name][ext][query]",
+          filename: BASE_DIR + "fonts/[name][ext][query]",
         },
       },
       {
